@@ -26,12 +26,20 @@ JeroenG\Packager\PackagerServiceProvider::class,
 
 
 ## Available Commands
+
 ### Make Controller
  
 ```bash
 $ php artisan make:packager:controller MyVendor/MyPackage MyController 
 ```
 All options are the same as with [Laravel's Artisan Make Controller](https://github.com/laravel/framework/blob/5.7/src/Illuminate/Routing/Console/ControllerMakeCommand.php#L176)
+
+### Make Model
+ 
+```bash
+$ php artisan make:packager:model MyVendor/MyPackage MyModel 
+```
+Supports the --force and --pivot options from [Laravel's Artisan Make Model](https://github.com/laravel/framework/blob/5.7/src/Illuminate/Foundation/Console/ModelMakeCommand.php#L144)
 
 ## Change log
 

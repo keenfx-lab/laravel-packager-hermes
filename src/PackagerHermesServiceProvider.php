@@ -10,7 +10,8 @@ class PackagerHermesServiceProvider extends ServiceProvider
      * Console commands
      */
     protected $commands = [
-        'DelveFore\PackagerHermes\Commands\MakeController'
+        'DelveFore\PackagerHermes\Commands\MakeController',
+        'DelveFore\PackagerHermes\Commands\MakeModel'
     ];
 
     /**

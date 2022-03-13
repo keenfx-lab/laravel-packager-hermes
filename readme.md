@@ -17,7 +17,7 @@ Via Composer
 $ composer require delvefore/laravel-packager-hermes
 ```
 
-Please note that this is specifically designed to work with the latest version of Laravel 5 or 6.
+Please note that this is specifically designed to work with the latest version of Laravel 5 through 9.
 However, you'd like to use it with Laravel 5.4 and below use service provider in `config/app.php`:
 
 ```php
